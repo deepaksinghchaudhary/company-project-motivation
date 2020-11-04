@@ -1,0 +1,68 @@
+ <!DOCTYPE html>
+<html lang="en">
+  <head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+          <meta http-equiv="X-UA-compatible" content="ie=edge" />
+          <link 
+                  href="https://fonts.googleapis.com/css?family=Poppins:400,500&display=swap"
+                  rel="stylesheet"
+           />
+          <link rel="stylesheet" href="./style.css" />  
+          <title>Landing Page</title>
+   </head>
+   <body>
+             <header>
+                   <div class="logo-container">
+                       <img src="./img/logo.svg" alt="logo">
+                       <h4 class="logo">Three Dots</h4>
+                   </div>
+            <nav> 
+	     <ul class ="nav-links">
+                          <li><a class="nav-link" href="#">All</a></li>                      
+                          <li><a class ="nav-links" href="#">Articles</a></li>
+                          <li><a class ="nav-links" a href="#">Product</a></li> 
+                          <li><a class ="nav-links" a href="#">Video</a></li>
+                          <li><a class ="nav-links" a href="#">Downloads</a></li> 
+                          <li><a class ="nav-links" a href="#">Play Ads</a></li>  
+                    </ul>
+              </nav>
+              <div class="cart">
+                      <img src="./img/cart.svg" alt="cart"/> 
+               </div>
+              </header>
+       <main>
+              <section class="presentation">
+                     <div class="introduction">
+                     <div class="intro-text">
+                            <h1>Motivation</h1>
+                     </div>
+                     <div class="cta">
+                            <button class="cta-add">Motivation</button>
+                            <button class="cta-select">Productivity</button>
+                            <button class="cta-add">Design</button>
+                            <button class="cta-add">Study</button>
+                            
+                            
+                     </div>    
+                     </div>
+                      <div class="cover">
+                             <img src="./img/matebook.png" alt="matebook"/>
+
+                      </div>
+              </section>
+              <div class ="motivation-select">
+                     <img src ="" alt="">
+                     <img src ="" alt="">
+                     <img src ="" alt="">
+                     <img src ="" alt="">
+                     <img src ="" alt="">
+
+              </div>
+              <img class="big-circle" src="./img/big-eclipse.svg" alt="">
+              <img class="medium-circle" src="./img/mid-eclipse.svg" alt="">
+              <img class="small-circle" src="./img/small-eclipse.svg" alt=""/>
+       </main>
+                                         
+    </body>
+    </html>
