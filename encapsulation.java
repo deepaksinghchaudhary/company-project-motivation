@@ -19,7 +19,7 @@ class test {
     public static void main(String[] args)
     {
         encapsulation n = new encapsulation();
-        n.setname("github");
+        n.setname("github-commit");
         System.out.println(n.getname());
     }
 }
